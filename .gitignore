@@ -122,7 +122,24 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+# PyCharm
 .idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+.vscode-server/
+.history/
+.local-server/
+
+# Workspace specific settings
+.code-workspace
+
+# Auto-generated files
+*.vsix
+*.nycrc
 
 # yarn v2
 .yarn/cache
